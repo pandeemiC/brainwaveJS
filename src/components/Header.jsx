@@ -18,7 +18,7 @@ const Header = () => {
       enablePageScroll()
     } else {
       setOpenNavigation(true);
-      disablePageScroll();
+        disablePageScroll();
     }
   };
 
