@@ -131,8 +131,11 @@ export const roadmap = [
   },
 ];
 
-export const collabText =
+export const collabText1 =
   "With smart automation and top-notch security, it's the perfect solution for teams looking to work smarter.";
+
+export const collabText2 = 
+  "BRAINWAVE.SYS 1.2.0.1"
 
 export const collabContent = [
   {
@@ -142,7 +145,7 @@ export const collabContent = [
   {
     id: "1",
     title: "Smart Automation",
-    text: collabText,
+    text: collabText1,
   },
   {
     id: "2",
