@@ -138,11 +138,11 @@ export const collabContent = [
   {
     id: "0",
     title: "Seamless Integration",
-    text: collabText,
   },
   {
     id: "1",
     title: "Smart Automation",
+    text: collabText,
   },
   {
     id: "2",
