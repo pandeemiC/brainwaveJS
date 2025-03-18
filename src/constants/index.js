@@ -134,8 +134,7 @@ export const roadmap = [
 export const collabText1 =
   "With smart automation and top-notch security, it's the perfect solution for teams looking to work smarter.";
 
-export const collabText2 = 
-  "BRAINWAVE.SYS 1.2.0.1"
+export const collabText2 = "BRAINWAVE.SYS 1.2.0.1";
 
 export const collabContent = [
   {
@@ -217,7 +216,7 @@ export const pricing = [
     id: "0",
     title: "Basic",
     description: "AI chatbot, personalized recommendations",
-    price: "0",
+    price: "5.99",
     features: [
       "An AI chatbot that can understand your queries",
       "Personalized recommendations based on your preferences",
@@ -239,7 +238,7 @@ export const pricing = [
     id: "2",
     title: "Enterprise",
     description: "Custom AI chatbot, advanced analytics, dedicated account",
-    price: null,
+    price: "~20",
     features: [
       "An AI chatbot that can understand your queries",
       "Personalized recommendations based on your preferences",

@@ -13,12 +13,9 @@ import {
 
 const Services = () => {
   return (
-    <Section id="how-to-use">
+    <Section crosses id="how-to-use">
       <div className="container">
-        <Heading
-          title="Generative AI Made For Creators"
-          text="Brainwave unlocks the potential of AI powered applications"
-        />
+        <Heading title="Generative AI Made For Creators" />
         <div className="relative">
           <div className="relative z-1 flex items-center h-[39rem] mb-9 p-8 border border-n-1/10 rounded-3xl overflow-hidden lg:p-20 xl:h-[46rem]">
             <div className="absolute top-0 left-0 w-full h-full pointer-events-none md:w-3/4 xl:w-auto">

@@ -7,6 +7,7 @@ export default {
   theme: {
     extend: {
       colors: {
+        "mixed-gradient": "#FFC876",
         color: {
           1: "#AC6AFF",
           2: "#FFC876",
