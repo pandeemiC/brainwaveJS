@@ -9,12 +9,16 @@ import { grid, check2, loading1 } from "../assets";
 
 const Roadmap = () => {
   return (
-    <Section crosses className="overflow-hidden xl:py-10" id="roadmap">
-      <div className="container md:pb-10">
+    <Section
+      crosses
+      className="overflow-hidden xl:pt-12 md:pt-12 lg:pt-12 !pt-6 !pb-12"
+      id="roadmap"
+    >
+      <div className="container">
         <Heading
           tag="Ready to get started"
           title="What We Are Working On"
-          className="text-center"
+          className="text-center justify-center flex flex-col items-center"
         />
         <div className="relative grid gap-6 md:grid-cols-2 md:gap-4 md:pb-[7rem]">
           {roadmap.map((item) => {
