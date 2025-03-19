@@ -60,13 +60,11 @@ To access the project
    cd brainwave
    ```
 
-````
-
 3. **Install dependencies via npm**:
 
 ```bash
 npm install
-````
+```
 
 4. **Run the project**:
 
