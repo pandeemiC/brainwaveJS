@@ -2,13 +2,14 @@ import React from "react";
 import Section from "./Section";
 import Heading from "./Heading";
 import TagLine from "./TagLine";
+import Button from "./Button";
 import { GradientLight } from "./design/Benefits";
 import { roadmap } from "../constants";
 import { grid, check2, loading1 } from "../assets";
 
 const Roadmap = () => {
   return (
-    <Section className="overflow-hidden" id="roadmap">
+    <Section crosses className="overflow-hidden xl:py-10" id="roadmap">
       <div className="container md:pb-10">
         <Heading
           tag="Ready to get started"
@@ -68,6 +69,9 @@ const Roadmap = () => {
               </div>
             );
           })}
+        </div>
+        <div className="flex justify-center w-full mt-10">
+          <Button href="#roadmap">Our Roadmap</Button>
         </div>
       </div>
     </Section>
